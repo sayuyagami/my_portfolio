@@ -1,0 +1,893 @@
+/* Please ❤ this and follow me if you like it! :D */
+
+
+
+
+/* Main CSS */
+
+html, body
+{
+	width: 100%;
+	height: 100%;
+}
+
+body,h1,h2,h3,h4,h5,h6,p
+{
+	margin: 0;
+	padding:0;
+}
+
+#full{
+  text-align: center;
+  font-family: 'Righteous', cursive;
+  color: #fff;
+  font-size: 20px;
+  
+}
+
+nav{
+	background-color: #272828 !important;
+}
+
+nav .navbar-brand
+{
+	user-select: none;
+	font-size: 40px;
+	font-family: 'Righteous', cursive;
+	color: #F7BA57 !important;
+	float: left;
+}
+
+nav .collapse
+{
+	margin-left: 5%;
+}
+
+
+
+nav .collapse li:nth-child(1){border-bottom: 4px solid #E2574C;}
+nav .collapse li:nth-child(2){border-bottom: 4px solid #599662;}
+nav .collapse li:nth-child(3){border-bottom: 4px solid #9B3764;}
+nav .collapse li:nth-child(4){border-bottom: 4px solid #829950;}
+
+
+nav .collapse li:nth-child(1):hover{background-color: #E2574C;}
+nav .collapse li:nth-child(2):hover{background-color: #599662;}
+nav .collapse li:nth-child(3):hover{background-color: #9B3764;}
+nav .collapse li:nth-child(4):hover{background-color: #829950;}
+
+
+#blue
+{
+	font-style: normal;
+	color: #00BFFF;
+	font-size: 48px;
+}
+
+#red
+{
+	font-style: normal;
+	color: #DC143C;
+	font-size: 48px;
+}
+
+.anime
+{
+	width: 100%;
+	height: 800px;
+	position: fixed;
+	top: 95.2px;
+	background-image: url(https://svgshare.com/i/Aun.svg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.anime h2
+{
+  user-select: none;
+  letter-spacing: 20px;
+  white-space: 20px;
+  font-size: 45px;
+  font-family: 'Bahiana', cursive;
+  text-align: center;
+  color: #ffffcc;
+  margin-top: 70px;
+  animation: naslov 2s;
+
+}
+
+#pv
+{
+    color: #333366;
+}
+
+#zv
+{
+    color: #333366;
+}
+
+
+.main
+{
+	padding-top: 50px;
+	width: 100%;
+	height: 2741px;
+	/*background-color: #2b3334;*/
+	background: #00d2ff; 
+	background: -webkit-linear-gradient(to bottom, #00d2ff , #3a7bd5);
+	background: linear-gradient(to top, #00d2ff , #3a7bd5); 
+	position: relative;
+	top:800px;
+	box-shadow: 0px -26px 127px 13px rgba(0,0,0,0.75);
+	user-select:none;
+}
+
+
+.home{
+	font-family: 'Bahiana', cursive !important;
+}
+
+.home .about h1{
+	text-align: center;
+	letter-spacing: 1px;
+	font-size: 85px;
+}
+
+.home .about p{
+	text-align: center;
+	letter-spacing: 1px;
+	font-size: 20px;
+}
+
+
+#footer
+{
+	position: relative;
+	top: 800px;
+	background-color: #272828;
+	width: 100%;
+	font-family: 'Bahiana', cursive;
+	font-size: 22px;
+	color: #F7BA57;
+	text-align: center;
+	letter-spacing: 3px;
+	padding: 10px 0 10px 0;
+	user-select: none;
+	overflow: hidden;
+
+
+}
+
+#footer p
+{
+	margin-bottom: 14px;
+
+
+}
+
+#footer input[type="email"]
+{
+	width: 340px;
+	height: 30px;
+	border: 4px solid #F7BA57;
+	border-radius: 4px 4px 4px 4px;
+	font-family: 'Righteous', cursive;
+	font-size: 19px;
+	color: #272828;
+	padding-left: 10px;
+	
+}
+
+#footer input[type="email"]:focus
+{
+	outline:0 !important;
+}
+
+#footer input[type="submit"]
+{
+	font-family: 'Bahiana', cursive;
+	color: #ffffff;
+	border: 2px solid #F7BA57;
+	border-radius: 4px 4px 4px 4px;
+	letter-spacing: 5px;
+	font-size: 18px;
+	background-color: #272828;
+	margin-bottom: 25px;
+	outline:0 !important;
+	cursor: pointer;
+	text-align: center;
+	transition: color,background-color,border 500ms linear;
+}
+
+#footer input[type="submit"]:hover
+{
+	background-color: rgba(255,255,255,0.8);
+	color: #272828;
+	border: 2px solid #3399cc;
+}
+
+#footer input[type="submit"]:active
+{
+	border: 2px solid #F7BA57;
+	transition: all 0s;
+}
+
+#footer img
+{
+	float: right;
+	position: absolute;
+	margin-left: 1%;
+}
+
+#link
+{
+	border-top: 1px solid rgba(255,255,255,0.55);
+	padding-top: 20px;
+	text-align: center;
+	margin: 0 auto;
+	clear: both;
+}
+#footer a:link,
+#footer a:visited
+{
+	margin-left: 25px;
+	text-decoration: none;
+	color: #ffffff;
+	letter-spacing: 5px;
+	font-size: 17px;
+}
+
+#footer a:hover
+{
+	color: silver;
+}
+
+#social
+{
+	color: silver;
+	padding: 30px 0 20px 0;
+
+
+}
+
+#social i 
+{
+	
+	text-align: center;
+	font-size: 20px;
+
+
+}
+
+#social i:nth-of-type(1)
+{
+	padding-left:0;
+}
+#social a:link,
+#social a:visited
+{
+	color: gray;
+	transition: color 200ms linear;
+	margin: 0;
+	
+}
+
+#social a:nth-of-type(1):hover{color: #365899;}
+#social a:nth-of-type(2):hover{color: #d92e7f;}
+#social a:nth-of-type(3):hover{color: #1dcaff;}
+#social a:nth-of-type(4):hover{color: #ffffff;}
+#social a:nth-of-type(5):hover{color: #ffffff;}
+
+
+#footer p:nth-of-type(2)
+{
+	text-align: center;
+	color: silver;
+	letter-spacing: 4px;
+	font-size: 15px;
+}font-size: 15px;
+}
+
+
+
+/* Anime CSS */
+
+@keyframes naslov
+{
+  0%
+  {
+     opacity: 0;
+  }
+
+  10%
+  {
+    opacity: 0.1;
+  }
+
+  20%
+  {
+    opacity: 0.2;
+  }
+
+  30%
+  {
+    opacity: 0.3;
+  }
+
+  40%
+  {
+    opacity: 0.4;
+  }
+
+  50%
+  {
+    opacity: 0.5;
+  }
+
+  60%
+  {
+    opacity: 0.6;
+  }
+
+  70%
+  {
+    opacity: 0.7;
+  }
+
+  80%
+  {
+    opacity: 0.8;
+  }
+
+  90%
+  {
+    opacity: 0.9;
+  }
+
+  100%
+  {
+    opacity: 1;
+  }
+
+}
+
+
+#kisiOblak
+{
+    user-select: none;
+	width:100px;
+    height:100px;
+	z-index: 10;
+	position: absolute;
+	top: 27%;
+	left: 42%;
+	animation: kisiOblak 6s infinite;
+
+}
+
+
+@keyframes kisiOblak {
+    0% {
+        left:43%;
+        top:27%;
+        
+        
+    }
+
+    50%
+    {
+    	 left:41.5%;
+        top:27%;
+    }
+    
+    100% {
+       
+    	top: 27%;
+		left: 43%;
+       
+    }
+}
+
+
+
+
+
+#kapljica1 {
+     user-select: none;
+    width:100px;
+    height:100px;
+    position:absolute;
+    top:-28%;
+    left:50%;
+     
+    animation: kapljicaq 2s infinite;
+   
+}
+ 
+@keyframes kapljicaq {
+   
+    
+    0% {
+        top:30%;
+        left:50%;
+        
+       
+    }
+
+    100% {
+        top:120%;
+        left:50%;
+        
+        }
+}
+
+#kapljica2 {
+     user-select: none;
+    width:100px;
+    height:100px;
+    position:absolute;
+    top:-28%;
+    left:50%;
+     
+    animation: kapljicaw 2s infinite;
+    animation-delay: 700ms;
+   
+}
+ 
+@keyframes kapljicaw {
+   
+    
+    0% {
+        top:30%;
+        left:49%;
+        
+       
+    }
+
+    100% {
+        top:120%;
+        left:51%;
+        
+        }
+}
+
+#kapljica3 {
+     user-select: none;
+    width:100px;
+    height:100px;
+    position:absolute;
+    top:-28%;
+    left:52%;
+     
+    animation: kapljicae 2s infinite;
+    animation-delay: 950ms;
+   
+}
+ 
+@keyframes kapljicae {
+   
+    
+    0% {
+        top:30%;
+        left:50%;
+        
+       
+    }
+
+    100% {
+        top:120%;
+        left:48%;
+        
+        }
+}
+
+#kapljica4 {
+     user-select: none;
+    width:100px;
+    height:100px;
+    position:absolute;
+    top:-28%;
+    left:50%;
+     
+    animation: kapljicar 2s infinite;
+    animation-delay: 800ms;
+   
+}
+ 
+@keyframes kapljicar {
+   
+    
+    0% {
+        top:30%;
+        left:50%;
+        
+       
+    }
+
+    100% {
+        top:120%;
+        left:50%;
+        
+        }
+}
+
+#kapljica5 {
+     user-select: none;
+    width:100px;
+    height:100px;
+    position:absolute;
+    top:30%;
+    left:45%;
+     
+    animation: kapljicat 2s infinite;
+    animation-delay: 800ms;
+   
+}
+ 
+@keyframes kapljicat {
+   
+    
+    0% {
+        top:30%;
+        left:45.2%;
+        
+       
+    }
+
+    100% {
+        top:120%;
+        left:45.2%;
+        
+        }
+}
+
+#kapljica6 {
+     user-select: none;
+    width:100px;
+    height:100px;
+    position:absolute;
+    top:30%;
+    left:46%;
+     
+    animation: kapljicay 2s infinite;
+    animation-delay: 1s;
+   
+}
+ 
+@keyframes kapljicay {
+   
+    
+    0% {
+        top:30%;
+        left:46%;
+        
+       
+    }
+
+    100% {
+        top:110%;
+        left:46%;
+        
+        }
+}
+
+#kapljica7 {
+     user-select: none;
+    width:100px;
+    height:100px;
+    position:absolute;
+    top:30%;
+    left:45%;
+     
+    animation: kapljicau 2s infinite;
+    animation-delay: 950ms;
+   
+}
+ 
+@keyframes kapljicau {
+   
+    
+    0% {
+        top:30%;
+        left:45%;
+        
+       
+    }
+
+    100% {
+        top:110%;
+        left:45%;
+        
+        }
+}
+
+#kapljica8 {
+     user-select: none;
+    width:100px;
+    height:100px;
+    position:absolute;
+    top:30%;
+    left:44%;
+
+     
+    animation: kapljicai 2s infinite;
+    animation-delay: 1.5s;
+   
+}
+ 
+@keyframes kapljicai {
+   
+    
+    0% {
+        top:30%;
+        left:44%;
+        
+       
+    }
+
+    100% {
+        top:120%;
+        left:44%;
+        
+        }
+}
+
+
+
+
+
+#kapljica9 {
+    user-select: none;
+    width:100px;
+    height:100px;
+    position:absolute;
+    top:30%;
+    left:44.6%;
+
+     
+    animation: kapljicao 2s infinite;
+    animation-delay: 2s;
+   
+}
+ 
+@keyframes kapljicao {
+   
+    
+    0% {
+        top:30%;
+        left:44.6%;
+        
+       
+    }
+
+    100% {
+        top:120%;
+        left:44.6%;
+        
+        }
+}
+
+#kapljica10 {
+    user-select: none;
+    width:100px;
+    height:100px;
+    position:absolute;
+    top:30%;
+    left:44.1%;
+
+     
+    animation: kapljicap 2s infinite;
+    animation-delay: 2.2s;
+   
+}
+ 
+@keyframes kapljicap {
+   
+    
+    0% {
+        top:30%;
+        left:44.1%;
+        
+       
+    }
+
+    100% {
+        top:120%;
+        left:44.1%;
+        
+        }
+}
+
+#kapljica11 {
+     user-select: none;
+    width:100px;
+    height:100px;
+    position:absolute;
+    top:30%;
+    left:44.8%;
+
+     
+    animation: kapljicaa 2s infinite;
+    animation-delay: 2.4s;
+   
+}
+ 
+@keyframes kapljicaa {
+   
+    
+    0% {
+        top:30%;
+        left:44.8%;
+        
+       
+    }
+
+    100% {
+        top:120%;
+        left:44.8%;
+        
+        }
+}
+
+#zvezda
+{
+     user-select: none;
+    width:100px;
+    height:100px;
+    position:absolute;
+    top:0;
+    left:0;
+     
+    animation: zvezda 50s infinite;
+
+
+   
+}
+ 
+@keyframes zvezda {
+   
+    
+    0% {
+         
+        top:10%;
+        left:30%;
+        
+       
+    }
+
+    5%
+
+    {
+        top:40%;
+        left:120%;
+    }
+
+    100% {
+        top:60%;
+        left:500%;
+
+        
+        }
+    
+}
+
+
+
+
+
+#pokretni_oblak1 {
+     user-select: none;
+    width:100px;
+    height:100px;
+    position:absolute;
+    top:0;
+    left: 0;
+     
+    animation: pokretniOblak1 90s infinite;
+    animation-direction: alternate;
+}
+ 
+@keyframes pokretniOblak1 {
+    0% {
+        left:-7%;
+        top:55%;
+        
+        
+    }
+    
+    100% {
+        left:107%;
+        top:50%;
+
+       
+    }
+}
+
+
+#pokretni_oblak2 {
+     user-select: none;
+    width:100px;
+    height:100px;
+    position:absolute;
+    top:-22%;
+    left:-40%;
+     
+    animation: pokretniOblak2 70s infinite;
+    animation-direction: alternate;
+}
+ 
+@keyframes pokretniOblak2 {
+    100% {
+        left:-7%;
+        top:22%;
+        
+    }
+    
+    0% {
+        left:107%;
+        top:20%;
+       
+    }
+}
+
+
+#pokretni_oblak3 {
+     user-select: none;
+    width:100px;
+    height:100px;
+    position:absolute;
+    top:10%;
+    left:-40%;
+     
+    animation: pokretniOblak3 400s infinite;
+    animation-direction: alternate;
+}
+ 
+@keyframes pokretniOblak3 {
+    100% {
+        left:-200%;
+        top:10%;
+        
+    }
+    
+    0% {
+        left:107%;
+        top:15%;
+       
+    }
+}
+
+
+
+#pokretni_oblak4 {
+     user-select: none;
+    width:100px;
+    height:100px;
+    position:absolute;
+    top:62%;
+    left:-400%;
+     
+    animation: pokretniOblak4 300s infinite;
+    animation-direction: alternate;
+}
+ 
+@keyframes pokretniOblak4 {
+     
+     100% {
+        left:-500%;
+        top:62%;
+
+       
+    }
+
+
+    0% {
+        left:107%;
+        top:62%;
+        
+        
+    }
+    
+   
+}
